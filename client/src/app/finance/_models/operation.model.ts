@@ -2,9 +2,9 @@ import { EType } from "./type.model";
 
 
 export interface IOperation {
-  id: string;
+  id?: string;
   sum: number;
   description: string;
-  catId: string;
+  catId?: string;
   type: EType;
 }

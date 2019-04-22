@@ -1,0 +1,22 @@
+<label>
+  Income
+  <!-- TODO: use ENUM (EType) -->
+  <input type="radio" value="income" [(ngModel)]="currentOperationType">
+</label>
+
+<label>
+  Consumption
+  <input type="radio" value="consumption" [(ngModel)]="currentOperationType">
+</label>
+<br>
+
+<select [(ngModel)]="operation.catId">
+  <option [value]="cat.id" *ngFor="let cat of categories | category:operation.type">
+    {{cat.name}}
+  </option>
+</select>
+<br>
+
+<input type="number" [(ngModel)]="operation.sum"><br>
+<textarea cols="50" rows="4" [(ngModel)]="operation.description"></textarea><br>
+<button (click)="addOperation()">Add operation</button>

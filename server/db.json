@@ -1,0 +1,146 @@
+{
+  "categories": [
+    {
+      "id": "-",
+      "name": "Без названия",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46fc1b416ae341c922f",
+      "name": "Продукты питания",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f561eca76ba7d1468",
+      "name": "Авто и транспорт",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f36fbc0b8e5436ced",
+      "name": "Одежда и обувь",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f0c93161cbcace56f",
+      "name": "Квартира",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f402ca41286931379",
+      "name": "Кафе и рестораны",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46f309cc243de3ee2dd",
+      "name": "Развлечения",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46fd03c03ebf2b728a5",
+      "name": "Путешествия",
+      "type": "consumption"
+    },
+    {
+      "id": "5bd8c46fa6905822d10ce177",
+      "name": "Здоровье",
+      "type": "consumption"
+    },
+    {
+      "id": "+",
+      "name": "Без названия",
+      "type": "income"
+    },
+    {
+      "id": "5bd8c46fab67b55ce966fbf9",
+      "name": "Основная работа",
+      "type": "income"
+    },
+    {
+      "id": "5bd8c46fc5774aa7d174202c",
+      "name": "Дополнительный источник",
+      "type": "income"
+    },
+    {
+      "id": "5bd8c46f51a4128eb96df054",
+      "name": "Возврат долга",
+      "type": "income"
+    },
+    {
+      "id": "5bd8c46f1257fe7d1c2a3adb",
+      "name": "Проценты",
+      "type": "income"
+    }
+  ],
+  "operations": [
+    {
+      "sum": 500,
+      "description": "dfsdfsd",
+      "type": "income",
+      "catId": "5bd8c46fab67b55ce966fbf9",
+      "id": 1
+    },
+    {
+      "sum": 550,
+      "description": "dfsdfsd",
+      "type": "consumption",
+      "catId": "5bd8c46f0c93161cbcace56f",
+      "id": 2
+    },
+    {
+      "sum": 550,
+      "description": "dfsdfsd",
+      "type": "consumption",
+      "catId": "-",
+      "id": 3
+    },
+    {
+      "sum": 2,
+      "description": "dfsdfsd",
+      "type": "consumption",
+      "catId": "-",
+      "id": 4
+    },
+    {
+      "sum": 2,
+      "description": "dfsdfsd",
+      "type": "consumption",
+      "catId": "-",
+      "id": 5
+    },
+    {
+      "sum": 2,
+      "description": "dfsdfsd",
+      "type": "consumption",
+      "catId": "-",
+      "id": 6
+    },
+    {
+      "sum": 2,
+      "description": "dfsdfsd",
+      "type": "consumption",
+      "catId": "-",
+      "id": 7
+    },
+    {
+      "sum": 66,
+      "description": "",
+      "type": "income",
+      "catId": "5bd8c46fc5774aa7d174202c",
+      "id": 8
+    },
+    {
+      "sum": 66,
+      "description": "",
+      "type": "consumption",
+      "catId": "5bd8c46f0c93161cbcace56f",
+      "id": 9
+    },
+    {
+      "sum": 66,
+      "description": "",
+      "type": "consumption",
+      "catId": "-",
+      "id": 10
+    }
+  ]
+}

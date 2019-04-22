@@ -1,0 +1,10 @@
+
+<app-add-operation (toAddOperation)="addOperation($event)" [categories]="operationCategories"></app-add-operation>
+
+<app-stats [operations]="operations"></app-stats>
+
+<ul>
+  <li *ngFor="let o of operations">
+    <b>{{o.sum}}</b> - {{o.description}}
+  </li>
+</ul>
